@@ -1,0 +1,28 @@
+2) SELECT _,_, precio, precio*1.21 AS iva
+3) SELECT _,_, year (systdate()/now()) year (fecha_nacimiento) AS enero
+4) WHERE cod_jefe IS NOT NULL
+7) WHERE month (fecha_pedido) = 3
+   WHERE fecha_pedido LIKE _ _/03/_ _ _ _
+9) SELECT top 4 _,_,__ from ... ORDER BY precio;
+				LIMIT 4
+   SELECT _,_,_ FROM ... WHERE ... AND ROWNUM <5;
+
+
+CREATE TABLE CLIENTES(
+    codigo_cliente int NOT NULL,
+    nombre varchar(35),
+    domicilio varchar(50),
+    provincia varchar(30),
+	
+    CONSTRAINT pk_codigo_cliente PRIMARY KEY(codigo_cliente)
+);
+
+CREATE TABLE (
+    codigo_cliente int NOT NULL,
+    nombre varchar(35),
+    domicilio varchar(50),
+    provincia varchar(30),
+	
+    CONSTRAINT pk_codigo_cliente PRIMARY KEY(codigo_cliente)
+);
+
